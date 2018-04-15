@@ -12,8 +12,8 @@ using namespace std;
 class __declspec(dllexport)  QuestionSetGenerator {
 
 public:
-	int ques_num;                         //题目的数量
-	int oper_num;                         //一个表达式中运算符的数量
+	int ques_num;                        //题目的数量
+	int oper_num;                        //一个表达式中运算符的数量
 	vector<char> oper_set;               //运算符的种类
 	int mode;                            //0为整数，1为小数，2为分数
 	pair<int, int> input_range;          //题目数值的范围
